@@ -1,0 +1,48 @@
+body{
+    /* background: red; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    /* background: royalblue; */
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    /* background: grey; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    margin-top: 150px;
+    width: 50%;
+    height: 400px;
+    /* background: yellow; */
+}
+
+.content > p{
+    color: grey;
+}
+
+.content > h1 > span{
+    border-bottom: 3px solid red;
+}
+
